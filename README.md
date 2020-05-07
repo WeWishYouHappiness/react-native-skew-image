@@ -14,7 +14,7 @@ NOTE: API > 28, Some methods (resizeMode, borderRadius, etc) don't support.
 
 ### Mostly automatic installation
 
-`$ react-native link https://github.com/abscess/react-native-skew-image.git`
+`$ react-native link react-native-skew-image`
 
 ## Usage
 ```javascript
