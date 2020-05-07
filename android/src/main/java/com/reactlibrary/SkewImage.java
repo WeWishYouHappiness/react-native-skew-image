@@ -12,6 +12,7 @@ public class SkewImage extends ReactImageView {
 
     private float skewX = 0.0f;
     private float skewY = 0.0f;
+    private Matrix matrix = new Matrix();
 
     public SkewImage(ThemedReactContext context, ReactApplicationContext mCallerContext) {
         super(context, Fresco.newDraweeControllerBuilder(), null, mCallerContext);
@@ -27,9 +28,9 @@ public class SkewImage extends ReactImageView {
 
     @Override
     public void onDraw(Canvas canvas) {
-        Matrix matrix = new Matrix();
         matrix.setSkew(skewX, skewY);
         canvas.setMatrix(matrix);
         super.onDraw(canvas);
     }
+    
 }
