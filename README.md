@@ -6,7 +6,7 @@ The display of static images.
 
 NOTE: API > 28, Some methods (resizeMode, borderRadius, etc) don't support.
 
-![main](./.gitassets/main.png)
+![main](https://github.com/abscess/react-native-skew-image/blob/master/.gitassets/main.png)
 
 ## Getting started
 
