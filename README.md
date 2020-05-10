@@ -4,7 +4,7 @@ The display of static images.
 
 (!)__Disclaimer__: The library is experimental. Don't use it.
 
-NOTE: API > 28, Some methods (resizeMode, borderRadius, etc) don't support.
+NOTE: API > 28, Some methods don't support.
 
 ![main](https://github.com/abscess/react-native-skew-image/blob/master/.gitassets/main.png?raw=true))
 
