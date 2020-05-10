@@ -6,11 +6,13 @@ The display of static images.
 
 NOTE: API > 28, Some methods (resizeMode, borderRadius, etc) don't support.
 
-![main](https://github.com/abscess/react-native-skew-image/blob/master/.gitassets/main.png)
+![main](https://github.com/abscess/react-native-skew-image/blob/master/.gitassets/main.png?raw=true))
 
 ## Getting started
 
-`$ npm install https://github.com/abscess/react-native-skew-image.git --save`
+`$ npm install react-native-skew-image --save`
+
+`$ yarn add react-native-skew-image`
 
 ### Mostly automatic installation
 
@@ -23,7 +25,7 @@ import SkewImage from 'react-native-skew-image';
   <SkewImage
     skewX={(Math.PI / 180) * 45}
     skewY={(Math.PI / 180) * 45}
-    source={{uri: 'asset:/dog.png'}}
+    source={require('./assets/dog.png')}
     style={styles.skewImage}
   />
 ```

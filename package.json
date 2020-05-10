@@ -1,7 +1,7 @@
 {
   "name": "react-native-skew-image",
   "title": "React Native Skew Image",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "The display of static images.",
   "main": "lib",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-skew-image.git",
-    "baseUrl": "https://github.com/github_account/react-native-skew-image"
+    "url": "git+https://github.com/abscess/react-native-skew-image.git",
+    "baseUrl": "https://github.com/abscess/react-native-skew-image"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Loser Loserov",
+    "email": "loser-pk@yandex.ru"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
