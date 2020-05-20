@@ -18,12 +18,12 @@ public class SkewImage extends ReactImageView {
         super(context, Fresco.newDraweeControllerBuilder(), null, mCallerContext);
     }
 
-    public void setSkewX(float grad) {
-        skewX = grad;
+    public void setSkewX(float rad) {
+        skewX = rad;
     }   
 
-     public void setSkewY(float grad) {
-        skewY = grad;
+     public void setSkewY(float rad) {
+        skewY = rad;
     }
 
     @Override
