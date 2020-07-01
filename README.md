@@ -28,6 +28,16 @@ import SkewImage from 'react-native-skew-image';
     style={styles.skewImage}
   />
 ```
+**Tip:** Set resizeMode to "stretch" and set aspectRatio manually for correct display.
+```javascript
+      <SkewImage 
+        style={{
+          ...
+          aspectRatio: 1 // manually - width/height
+        }}
+        resizeMode={"stretch"} // "stretch"
+      />
+```
 
 ## Internal
 ```java
